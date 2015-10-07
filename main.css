@@ -87,7 +87,7 @@ main {
 	background-size: cover;
 	position: absolute;
 	top: 66px;
-	right: 803px;
+	left: 644px;
 	cursor: pointer;
 	z-index: 1;
 	transition: all 500ms ease;
@@ -106,7 +106,7 @@ main {
 	background-size: cover;
 	position: absolute;
 	top: 66px;
-	left: 768px;
+	right: 683px;
 	cursor: pointer;
 	z-index: 1;
 	transition: all 500ms ease;
