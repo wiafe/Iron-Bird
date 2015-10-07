@@ -1,0 +1,227 @@
+/*START OF GENERAL STYLE*/
+
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'teko', sans-serif;
+	background-image: url('bird@2x-copy.png');
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.beer-2 {
+
+}
+ul {
+	padding: 0;
+	padding-right: 50px
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.3);
+}
+
+dl {
+	margin-top: 0;
+}
+
+main {
+	width: 100%;
+	max-width: 640px;
+	background-color: transparent;
+	margin-top: 100px;
+	position: absolute;
+	left: 50%;
+	margin-left: -340px;
+	text-align: left;
+	height: 599px;
+	overflow: auto;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+/***** END OF GENERAL STYLE *****/
+
+.right-wing a, .left-wing a {
+	position: absolute;
+	top: 70px;
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+}
+
+.left-wing {
+	background-image: url('left-wing.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 66px;
+	right: 803px;
+	cursor: pointer;
+	z-index: 1;
+	transition: all 500ms ease;
+	height: 140px;
+	width: 225px;
+}
+.left-wing:hover {
+	background-image: url('left-wing-hover-2.png');
+	z-index: 99999;
+	transition: all 500ms ease;
+}
+
+.right-wing {
+	background-image: url('right-wing.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 66px;
+	left: 768px;
+	cursor: pointer;
+	z-index: 1;
+	transition: all 500ms ease;
+	height: 140px;
+	width: 225px;
+
+}
+.right-wing:hover {
+	background-image: url('right-wing-hover-2.png');
+	z-index: 99999;
+	transition: all 500ms ease;
+}
+.right-wing a {
+	right: 81px
+}
+
+.logo {
+	background-image: url('small-logo.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+.sidebar {
+	text-align: left;
+	width: 300px;
+	padding: 30px;
+	margin-left: 20px;
+}
+
+.sidebar p {
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+.contact {
+	margin-right: 20px;
+}
+
+.menu {
+	padding: 0 10px;
+}
+.menu h3 {
+	float: left;
+	clear: left;
+}
+.menu h3:focus {
+	outline: none;
+}
+.menu div p {
+	margin: 0;
+	padding: 10px;
+}
+
+.menu div {
+	clear: left;
+	margin-bottom: 40px;
+}
+
+.menu div h3 span{
+	display: none;
+}
+
+main .container {
+	/*width: 100%;
+	max-width: 1200px;*/
+	padding: 20px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+main h1 {
+	margin-top: 0;
+}
+
+main h3, main dt {
+	margin: 0;
+	line-height: 17px;
+}
+
+
+table {
+	table-layout: fixed;
+	width: 100%
+}
+
+main .beer {
+	margin-bottom: 20px;
+}
+
+.img {
+	width: 20%;
+	height: 110px;
+	/*border: 1px solid black;*/
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.5);
+	background-image: url('a-beer.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+main .blurb{
+	width: 70%;
+}
+
+.blurb {
+	margin-left: 60px;
+}
+
+.blurb p, .blurb dd {
+	margin: 0;
+	padding: 10px 0;
+	display: inline-block;
+}
+
+.beer dt {
+	display: inline-block;
+}
