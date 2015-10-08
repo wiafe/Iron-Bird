@@ -8,6 +8,7 @@ body{
 	background-image: url('bird@2x-copy.png');
 	background-repeat: no-repeat;
 	background-position: top;
+	-webkit-font-smoothing: antialiased;
 }
 .beer-2 {
 
@@ -224,4 +225,19 @@ main .blurb{
 
 .beer dt {
 	display: inline-block;
+}
+
+h3.beer-name {
+	margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h3.beer-name .cask{
+	font-weight: 100;
+	text-transform: uppercase;
+	background-color: rgba(0,0,0,.2);
+	padding: 0px 9px;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	font-size: 15px;
 }
